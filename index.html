@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie flatdango </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Movie flatdango</h1>
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search movies...">
+            </div>
+            <div class="movie-list">
+                <ul id="films">
+                    <!-- Placeholder li to be removed by JavaScript -->
+                    <li>Loading...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="movie-details" id="movie-details">
+            <div class="poster-container">
+                <img src="" alt="Movie Poster" id="poster">
+            </div>
+            <div class="details-container">
+                <h2 id="title"></h2>
+                <p><strong>Showtime:</strong> <span id="showtime"></span></p>
+                <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p>
+                <button class="buy-ticket-btn" id="buy-ticket">Buy Ticket</button>
+            </div>
+        </div>
+    </div>
 
+    <script src="/script.js"></script>
+</body>
+</html>
